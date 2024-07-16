@@ -5,6 +5,13 @@ a product level go sse client withou any other dependencies.
 
 refer to sse_client_test.go for example usage.
 
+### install
+```shell
+go get github.com/xiaoguaihou/go-sse-client@v1.0.0
+```
+
+### demo
+
 ```go
 header := map[string]string{
 		"Authorization": "Bearer token123",
